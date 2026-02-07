@@ -1,0 +1,40 @@
+# Python / virtual environments
+venv/
+.env/
+.venv/
+env/
+myenv/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Conda / Anaconda specific
+.conda/
+conda-meta/
+*.egg-info/
+dist/
+build/
+
+# macOS junk
+.DS_Store
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# If you have large data files / notebooks you don't want committed
+*.ipynb_checkpoints/
+data/
+notebooks/*.ipynb  # ← only if you want to ignore ALL notebooks
