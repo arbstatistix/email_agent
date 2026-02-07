@@ -38,3 +38,6 @@ temp/
 *.ipynb_checkpoints/
 data/
 notebooks/*.ipynb  # ← only if you want to ignore ALL notebooks
+
+token.json
+credentials.json
