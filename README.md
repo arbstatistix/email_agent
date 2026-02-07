@@ -27,16 +27,16 @@ Core capabilities included in this repository:
 
 The repository is structured as follows:
 
-email_agent/
-├── app.py # Application entrypoint
-├── gmailer.py # Gmail API interface
-├── google_auth.py # OAuth2 authentication with Google
-├── sheets_store.py # Google Sheets persistence logic
-├── worker.py # Task orchestration and workflow logic
-├── credentials.json # OAuth client secrets (excluded from source control)
-├── token.json # Persisted OAuth tokens generated at runtime
-├── requirements.txt # Python dependencies
-└── LICENSE # MIT License
+email_agent/ \n
+├── app.py # Application entrypoint \n
+├── gmailer.py # Gmail API interface \n
+├── google_auth.py # OAuth2 authentication with Google \n
+├── sheets_store.py # Google Sheets persistence logic \n
+├── worker.py # Task orchestration and workflow logic \n
+├── credentials.json # OAuth client secrets (excluded from source control) \n
+├── token.json # Persisted OAuth tokens generated at runtime \n
+├── requirements.txt # Python dependencies \n
+└── LICENSE # MIT License \n
 
 
 
