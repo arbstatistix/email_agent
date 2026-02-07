@@ -12,7 +12,7 @@ from gmailer import send_one, search_bounces, get_message_full, parse_dsn_recipi
 
 TZ = ZoneInfo("Asia/Kolkata")
 
-SPREADSHEET_ID = "1V7_ck61GD0ltJ6pKDfQC-cYjtqYJzrwkbtGAJZ1hL80"
+SPREADSHEET_ID = "ENTER_THE_SHEET_ID"
 SHEET_NAME = "Sheet1"
 
 ADMIN_EMAILS = ["admin1@yourco.com", "admin2@yourco.com"]  # optional
