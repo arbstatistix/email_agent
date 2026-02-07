@@ -27,7 +27,7 @@ Core capabilities included in this repository:
 
 The repository is structured as follows:
 
-```email_agent/
+email_agent/
 ├── app.py # Application entrypoint
 ├── gmailer.py # Gmail API interface
 ├── google_auth.py # OAuth2 authentication with Google
@@ -36,7 +36,7 @@ The repository is structured as follows:
 ├── credentials.json # OAuth client secrets (excluded from source control)
 ├── token.json # Persisted OAuth tokens generated at runtime
 ├── requirements.txt # Python dependencies
-└── LICENSE # MIT License```
+└── LICENSE # MIT License
 
 
 
