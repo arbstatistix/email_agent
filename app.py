@@ -13,8 +13,16 @@ st.title("Email Ops Dashboard")
 import re
 
 EXPECTED_COLS = [
-    "lead_id", "email", "first_name", "company", "status",
-    "sent_at", "gmail_msg_id", "bounce_code", "bounce_reason", "verified_at"
+    "lead_id", 
+    "email", 
+    "first_name", 
+    "company", 
+    "status", 
+    "sent_at", 
+    "gmail_msg_id", 
+    "bounce_code", 
+    "bounce_reason", 
+    "verified_at"
 ]
 
 def _norm(s: str) -> str:
