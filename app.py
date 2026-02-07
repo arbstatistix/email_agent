@@ -3,7 +3,8 @@ from google_auth import build_creds, build_sheets_service
 # from sheets_store import leads_to_df, read_leads
 from worker import nightly_send_job, morning_verify_job
 import pandas as pd
-SPREADSHEET_ID = "1V7_ck61GD0ltJ6pKDfQC-cYjtqYJzrwkbtGAJZ1hL80"
+
+SPREADSHEET_ID = "ENTER YOUR SHEET ID HERE"
 SHEET_NAME = "Sheet1"  # or "Leads" if you renamed the tab
 
 st.set_page_config(layout="wide")

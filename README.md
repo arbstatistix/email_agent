@@ -38,9 +38,7 @@ email_agent/
 ├── token.json # Persisted OAuth tokens generated at runtime
 ├── requirements.txt # Python dependencies
 └── LICENSE # MIT License
-bash
 ```
-
 
 
 ## Requirements
@@ -48,9 +46,9 @@ bash
 - Python 3.9+
 - Installed dependencies from `requirements.txt`
 - Google Cloud Project with:
-  - Gmail API enabled
-  - Google Sheets API enabled
-  - OAuth2 credentials (`credentials.json`)
+- Gmail API enabled
+- Google Sheets API enabled
+- OAuth2 credentials (`credentials.json`)
 
 ## Setup
 
