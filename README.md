@@ -59,3 +59,4 @@ The repository is structured as follows:
    source venv/bin/activate   # Windows: venv\Scripts\activate
    pip install -r requirements.txt
 ```
+
